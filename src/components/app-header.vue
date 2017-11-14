@@ -1,7 +1,7 @@
 <template>
   <nav v-bind:class="{white: sticky, home: $route.path === '/'}">
     <div class="logo">
-      <button class="guide" v-on:click="isOpen = !isOpen"><i class="fa fa-bars" aria-hidden="true"></i></button>
+      <button class="guide" v-on:click="isOpen = !isOpen" v-on:blur="isOpen = false"><i class="fa fa-bars" aria-hidden="true"></i></button>
       <router-link to="/"><img src="../assets/logo.svg"></router-link>
       <router-link to="/"><span>Ideas worth spreading</span></router-link>
     </div>
