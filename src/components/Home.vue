@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="home-header" style="background-image: linear-gradient(159deg, rgba(0 ,0 ,0, .9), rgba(0, 0, 0, .2) 20rem), url(https://pi.tedcdn.com/r/s3.amazonaws.com/talkstar-photos/uploads/87977bdd-8faf-4a5a-9ac4-118d31e7e532/TeresaNjoroge_2017W-embed.jpg?blur=0%2C10&amp;cb=20160613&amp;quality=63&amp;u=&amp;w=150);">
+    <div class="home-header" v-bind:style="{ backgroundImage: `linear-gradient(159deg, rgba(0 ,0 ,0, .9), rgba(0, 0, 0, .2) 20rem), url(${list[0].backdropUrl})` }">
       <div v-for="item, index of list" class="item" v-on:click="rotate(index)">
         <div class="item-image" v-bind:style="{ backgroundImage: `url(${item.backgrondUrl})` }"></div>
         <div class="item-meta">
@@ -29,6 +29,7 @@ export default {
       list: [
         {
           backgrondUrl: 'https://pi.tedcdn.com/r/s3.amazonaws.com/talkstar-photos/uploads/87977bdd-8faf-4a5a-9ac4-118d31e7e532/TeresaNjoroge_2017W-embed.jpg?cb=20160613&amp;quality=60&amp;u=&amp;w=1400',
+          backdropUrl: 'https://pi.tedcdn.com/r/s3.amazonaws.com/talkstar-photos/uploads/87977bdd-8faf-4a5a-9ac4-118d31e7e532/TeresaNjoroge_2017W-embed.jpg?blur=0%2C10&amp;cb=20160613&amp;quality=63&amp;u=&amp;w=150',
           title: `What I learned serving time for a crime I didn't commit`,
           speaker: 'Teresa Njoroge',
           position: 'Criminal and social justice reform advocate',
@@ -36,6 +37,7 @@ export default {
         },
         {
           backgrondUrl: 'https://pi.tedcdn.com/r/tedcdnpe-a.akamaihd.net/images/ted/9d9e218a26b00bd5a0eb2f69f9a44e768fdebc26_2880x1620.jpg?cb=20160511&amp;h=500&amp;quality=90&amp;w=',
+          backdropUrl: 'https://pi.tedcdn.com/r/s3.amazonaws.com/talkstar-photos/uploads/757d61e4-4717-4e0f-acb0-5ccad04d6a57/JacksonBird_2017S-embed.jpg?blur=0%2C10&cb=20160613&quality=63&u=&w=150',
           title: `How to see with sound`,
           speaker: 'Daniel Kish',
           position: 'Perceptual navigation specialist',
@@ -43,6 +45,7 @@ export default {
         },
         {
           backgrondUrl: 'https://pi.tedcdn.com/r/tedcdnpf-a.akamaihd.net/images/playlists/find_your_purpose_1200x627.jpg?cb=20160511&amp;h=500&amp;quality=90&amp;w=',
+          backdropUrl: 'https://pi.tedcdn.com/r/s3.amazonaws.com/talkstar-photos/uploads/757d61e4-4717-4e0f-acb0-5ccad04d6a57/JacksonBird_2017S-embed.jpg?blur=0%2C10&cb=20160613&quality=63&u=&w=150',
           title: `7 talks to help you find your purpose`,
           speaker: 'Playlist',
           position: '7 talks',
@@ -50,6 +53,7 @@ export default {
         },
         {
           backgrondUrl: 'https://pi.tedcdn.com/r/s3.amazonaws.com/talkstar-photos/uploads/757d61e4-4717-4e0f-acb0-5ccad04d6a57/JacksonBird_2017S-embed.jpg?cb=20160613&quality=60&u=&w=1400',
+          backdropUrl: 'https://pi.tedcdn.com/r/s3.amazonaws.com/talkstar-photos/uploads/757d61e4-4717-4e0f-acb0-5ccad04d6a57/JacksonBird_2017S-embed.jpg?blur=0%2C10&cb=20160613&quality=63&u=&w=150',
           title: `How to talk (and listen) to transgender people`,
           speaker: 'Jackson Bird',
           position: 'Digital storyteller, activist',
@@ -82,8 +86,11 @@ export default {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
+  margin-bottom: 60px;
   .item {
     position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .9);
+    bottom: -8px;
     .item-image {
       background-size: cover;
     }
@@ -117,6 +124,7 @@ export default {
   .item:nth-child(1) {
     flex: 0 0 56%;
     cursor: pointer;
+    border-bottom: 2px solid #E62B1E;
     .item-image {
       height: 346px;
     }
