@@ -2,6 +2,8 @@
 
 > new ted.com
 
+See it at [herokuapp](https://ted-takeon.herokuapp.com/#/)
+
 ## Build Setup
 
 ``` bash
