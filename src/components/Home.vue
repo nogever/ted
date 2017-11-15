@@ -28,28 +28,12 @@ export default {
     return {
       list: [
         {
-          backgrondUrl: 'https://pi.tedcdn.com/r/s3.amazonaws.com/talkstar-photos/uploads/87977bdd-8faf-4a5a-9ac4-118d31e7e532/TeresaNjoroge_2017W-embed.jpg?cb=20160613&amp;quality=60&amp;u=&amp;w=1400',
-          backdropUrl: 'https://pi.tedcdn.com/r/s3.amazonaws.com/talkstar-photos/uploads/87977bdd-8faf-4a5a-9ac4-118d31e7e532/TeresaNjoroge_2017W-embed.jpg?blur=0%2C10&amp;cb=20160613&amp;quality=63&amp;u=&amp;w=150',
-          title: `What I learned serving time for a crime I didn't commit`,
-          speaker: 'Teresa Njoroge',
-          position: 'Criminal and social justice reform advocate',
-          description: 'TED Talk: Daniel Kish explains how he uses sound to navigate the world'
-        },
-        {
-          backgrondUrl: 'https://pi.tedcdn.com/r/tedcdnpe-a.akamaihd.net/images/ted/9d9e218a26b00bd5a0eb2f69f9a44e768fdebc26_2880x1620.jpg?cb=20160511&amp;h=500&amp;quality=90&amp;w=',
-          backdropUrl: 'https://pi.tedcdn.com/r/s3.amazonaws.com/talkstar-photos/uploads/757d61e4-4717-4e0f-acb0-5ccad04d6a57/JacksonBird_2017S-embed.jpg?blur=0%2C10&cb=20160613&quality=63&u=&w=150',
-          title: `How to see with sound`,
-          speaker: 'Daniel Kish',
-          position: 'Perceptual navigation specialist',
-          description: 'TED Talk: Daniel Kish explains how he uses sound to navigate the world'
-        },
-        {
-          backgrondUrl: 'https://pi.tedcdn.com/r/tedcdnpf-a.akamaihd.net/images/playlists/find_your_purpose_1200x627.jpg?cb=20160511&amp;h=500&amp;quality=90&amp;w=',
-          backdropUrl: 'https://pi.tedcdn.com/r/s3.amazonaws.com/talkstar-photos/uploads/757d61e4-4717-4e0f-acb0-5ccad04d6a57/JacksonBird_2017S-embed.jpg?blur=0%2C10&cb=20160613&quality=63&u=&w=150',
-          title: `7 talks to help you find your purpose`,
-          speaker: 'Playlist',
-          position: '7 talks',
-          description: 'Not sure what to do with your one precious life? These talks can help you discover your path'
+          backgrondUrl: 'https://pi.tedcdn.com/r/s3.amazonaws.com/talkstar-photos/uploads/91112473-e679-47a7-bd99-e84c15514dec/LloydPendleton_2016P-embed.jpg?cb=20160613&quality=60&u=&w=1400',
+          backdropUrl: 'https://pi.tedcdn.com/r/s3.amazonaws.com/talkstar-photos/uploads/91112473-e679-47a7-bd99-e84c15514dec/LloydPendleton_2016P-embed.jpg?blur=0%2C10&cb=20160613&quality=63&u=&w=150',
+          title: `The Housing First approach to homelessness`,
+          speaker: 'Lloyd Pendleton',
+          position: 'Homeless advocate',
+          description: 'What would happen if you invited an individual with mental health issues who had been homeless for years to move directly from the street into housing?'
         },
         {
           backgrondUrl: 'https://pi.tedcdn.com/r/s3.amazonaws.com/talkstar-photos/uploads/757d61e4-4717-4e0f-acb0-5ccad04d6a57/JacksonBird_2017S-embed.jpg?cb=20160613&quality=60&u=&w=1400',
@@ -58,6 +42,22 @@ export default {
           speaker: 'Jackson Bird',
           position: 'Digital storyteller, activist',
           description: 'Gender should be the least remarkable thing about someone, but transgender people are still too often misunderstood.'
+        },
+        {
+          backgrondUrl: 'https://pi.tedcdn.com/r/s3.amazonaws.com/talkstar-photos/uploads/87977bdd-8faf-4a5a-9ac4-118d31e7e532/TeresaNjoroge_2017W-embed.jpg?cb=20160613&amp;quality=60&amp;u=&amp;w=1400',
+          backdropUrl: 'https://pi.tedcdn.com/r/s3.amazonaws.com/talkstar-photos/uploads/87977bdd-8faf-4a5a-9ac4-118d31e7e532/TeresaNjoroge_2017W-embed.jpg?blur=0%2C10&amp;cb=20160613&amp;quality=63&amp;u=&amp;w=150',
+          title: `What I learned serving time for a crime I didn't commit`,
+          speaker: 'Teresa Njoroge',
+          position: 'Criminal and social justice reform advocate',
+          description: 'TED Talk: Daniel Kish explains how he uses sound to navigate the world'
+        },
+        {
+          backgrondUrl: 'https://pi.tedcdn.com/r/tedcdnpe-a.akamaihd.net/images/ted/9d9e218a26b00bd5a0eb2f69f9a44e768fdebc26_2880x1620.jpg?cb=20160511&amp;h=500&amp;quality=90&amp;w=1400',
+          backdropUrl: 'https://pi.tedcdn.com/r/s3.amazonaws.com/talkstar-photos/uploads/757d61e4-4717-4e0f-acb0-5ccad04d6a57/JacksonBird_2017S-embed.jpg?blur=0%2C10&cb=20160613&quality=63&u=&w=150',
+          title: `How to see with sound`,
+          speaker: 'Daniel Kish',
+          position: 'Perceptual navigation specialist',
+          description: 'TED Talk: Daniel Kish explains how he uses sound to navigate the world'
         }
       ]
     }
